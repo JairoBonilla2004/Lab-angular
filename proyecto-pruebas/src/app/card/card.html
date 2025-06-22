@@ -1,0 +1,10 @@
+<div class="advanced-card">
+  <img *ngIf="imagenUrl" [src]="imagenUrl" alt="Imagen del card" class="card-image" />
+
+  <div class="card-content">
+    <h2>{{ titulo }}</h2>
+    <p>{{ descripcion }}</p>
+  </div>
+
+  <button *ngIf="botonTexto" (click)="emitirClick()">{{ botonTexto }}</button>
+</div>
