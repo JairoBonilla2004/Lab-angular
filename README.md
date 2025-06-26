@@ -285,6 +285,8 @@ npm install -g http-server
 
 http-server coverage/proyecto-pruebas
 
+ng g c nombre-del-componente
+
 ```
 
 
